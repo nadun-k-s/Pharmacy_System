@@ -74,8 +74,8 @@ if (checkImagesInOrderDetails($orderId, $conn)) {
     $mail->isSMTP();
     $mail->Host = 'smtp.gmail.com'; // Gmail SMTP server
     $mail->SMTPAuth = true;
-    $mail->Username = 'nadundevelop@gmail.com'; // Your Gmail email address
-    $mail->Password = 'kjya onsy wghz cajm'; // Your Gmail password
+    $mail->Username = '@gmail.com'; // Your Gmail email address
+    $mail->Password = 'wghz cajm'; // Your Gmail password
     $mail->SMTPSecure = 'tls'; // Enable TLS encryption
     $mail->Port = 587; // TCP port to connect to Gmail SMTP server
 
